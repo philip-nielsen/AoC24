@@ -8,7 +8,7 @@ int main() {
   int leftList[1000];
 
   for (int i = 0; i < 2000; i++) {
-    scanf("%d", &tmp);
+    int a = scanf("%d", &tmp);
     if (i % 2 == 0) {
       index = i / 2;
       leftList[i / 2] = tmp;
@@ -43,5 +43,5 @@ int main() {
     count = 0;
   }
 
-  printf("result1 = %d\n and result2 = %d\n", result1, result2);
+  printf("result1 = %d and result2 = %d\n", result1, result2);
 }
